@@ -50,9 +50,10 @@ const determineWinner = (userChoice, computerChoice) => {
   }
 
 const playGame = () => {
-  const userChoice = 
-getUserChoice('paper'); 
-//enter your answer in '' above (line 54)
+  const userChoice =
+//enter your answer in '' below to play the game
+getUserChoice('rock');
+
   const computerChoice =
 getComputerChoice();
     console.log('you threw ' + userChoice);
@@ -63,4 +64,3 @@ console.log(determineWinner(userChoice,computerChoice));
 
 
 playGame()
-
